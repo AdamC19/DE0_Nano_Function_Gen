@@ -1,0 +1,164 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "5.1.10-88a1d61d58~90~ubuntu20.04.1"
+    },
+    "CreationDate":  "2021-11-03T15:51:46-04:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "de0_nano_breakout",
+      "GUID": "6465305f-6e61-46e6-9f5f-627265616b6f",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 110.050,
+      "Y": 140.050
+    },
+    "LayerNumber": 4,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "MinLineWidth":  0.250,
+      "TrackToRegion":  0.350,
+      "RegionToRegion":  0.350
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad":  0.200,
+      "PadToTrack":  0.200,
+      "TrackToTrack":  0.200,
+      "TrackToRegion":  0.350,
+      "RegionToRegion":  0.350
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "de0_nano_breakout-F_Cu.gtl",
+      "FileFunction":  "Copper,L1,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-In1_Cu.g2",
+      "FileFunction":  "Copper,L2,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-In2_Cu.g3",
+      "FileFunction":  "Copper,L3,Inr",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-B_Cu.gbl",
+      "FileFunction":  "Copper,L4,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-F_Paste.gtp",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-B_Paste.gbp",
+      "FileFunction":  "SolderPaste,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-F_SilkS.gto",
+      "FileFunction":  "Legend,Top",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-B_SilkS.gbo",
+      "FileFunction":  "Legend,Bot",
+      "FilePolarity":  "Positive"
+    },
+    {
+      "Path":  "de0_nano_breakout-F_Mask.gts",
+      "FileFunction":  "SolderMask,Top",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "de0_nano_breakout-B_Mask.gbs",
+      "FileFunction":  "SolderMask,Bot",
+      "FilePolarity":  "Negative"
+    },
+    {
+      "Path":  "de0_nano_breakout-Edge_Cuts.gm1",
+      "FileFunction":  "Profile",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer F.SilkS"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer F.Mask"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer F.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L1/L2"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In1.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L2/L3"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer In2.Cu"
+    },
+    {
+      "Type":  "Dielectric",
+      "Material":  "FR4",
+      "Notes":  "Layers L3/L4"
+    },
+    {
+      "Type":  "Copper",
+      "Notes":  "Layer B.Cu"
+    },
+    {
+      "Type":  "SolderMask",
+      "Notes":  "Layer B.Mask"
+    },
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer B.Paste"
+    },
+    {
+      "Type":  "Legend",
+      "Notes":  "Layer B.SilkS"
+    }
+  ]
+}
